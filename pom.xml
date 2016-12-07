@@ -8,7 +8,7 @@
 	<packaging>jar</packaging>
 
 	<name>rest-client</name>
-	<url>http://maven.apache.org</url>
+	<url>http://marklogic.com</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
