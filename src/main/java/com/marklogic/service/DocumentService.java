@@ -25,8 +25,7 @@ public class DocumentService {
 		final Client client = ClientBuilder.newBuilder().build();
 		client.register(feature);
 		client.register(new LoggingFilter());
-		final WebTarget webTarget = client.target(ML_SERVER).path(ML_DOCUMENT_END_POINT);
-		return webTarget;
+		return client.target(ML_SERVER).path(ML_DOCUMENT_END_POINT);
 	}
 
 }
