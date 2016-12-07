@@ -20,7 +20,7 @@ public class QuoteService extends DocumentService {
 
 	public QuoteRequest find(final String uri) {
 
-		return super.getInvocationBuilder().queryParam("uri", "C1-A1-Q1").request(MediaType.APPLICATION_JSON)
+		return super.getInvocationBuilder().queryParam("uri", uri).request(MediaType.APPLICATION_JSON)
 				.get(QuoteRequest.class);
 	}
 
