@@ -9,10 +9,6 @@ public class Client {
 
 	public Client(){}
 
-	public Client(final String id){
-		this.id = id;
-	}
-
 	public Client(final String id, final Account accout){
 		this.id = id;
 		this.account = accout;
