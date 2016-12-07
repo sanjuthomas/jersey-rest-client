@@ -18,6 +18,7 @@ public class DocumentService {
 	private static final String ML_DOCUMENT_END_POINT = "v1/documents";
 	private static final String ML_USERNAME = "admin";
 	private static final String ML_PASSWORD = "admin";
+	protected static final String URI_PARAM = "uri";
 
 	protected WebTarget getInvocationBuilder(){
 
