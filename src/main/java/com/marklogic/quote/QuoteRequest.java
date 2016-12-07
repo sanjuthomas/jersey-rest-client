@@ -59,11 +59,13 @@ public class QuoteRequest {
 
 	public String getURI(){
 		final  StringBuilder builder = new StringBuilder();
+		builder.append("/");
 		builder.append(this.client.getId());
-		builder.append("-");
+		builder.append("/");
 		builder.append(this.client.getAccount().getId());
-		builder.append("-");
+		builder.append("/");
 		builder.append(this.getId());
+		builder.append(".xml");
 		return builder.toString();
 	}
 
