@@ -8,4 +8,4 @@ MarkLogic REST client using [org.glassfish.jersey.client](https://mvnrepository.
 3. Document delete using [MarkLogic REST DELETE] (https://docs.marklogic.com/REST/DELETE/v1/documents) 
 
 #Questions? 
-Please contact ml@sanju.org
+Please create an issue.
