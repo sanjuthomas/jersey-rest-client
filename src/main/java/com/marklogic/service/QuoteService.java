@@ -14,19 +14,19 @@ public class QuoteService extends DocumentService {
 
 	public void insertOrUpdate(final QuoteRequest quoteRequest) {
 
-		super.getInvocationBuilder().queryParam(URI_PARAM, quoteRequest.getURI()).request()
+		super.getWebTarget().queryParam(URI_PARAM, quoteRequest.getURI()).request()
 		.put(Entity.entity(quoteRequest, MediaType.APPLICATION_ATOM_XML_TYPE));
 	}
 
 	public QuoteRequest find(final String uri) {
 
-		return super.getInvocationBuilder().queryParam(URI_PARAM, uri).request(MediaType.APPLICATION_XML)
+		return super.getWebTarget().queryParam(URI_PARAM, uri).request(MediaType.APPLICATION_XML)
 				.get(QuoteRequest.class);
 	}
 
 	public void delete(final String uri) {
 
-		super.getInvocationBuilder().queryParam(URI_PARAM, uri).request().delete();
+		super.getWebTarget().queryParam(URI_PARAM, uri).request().delete();
 	}
 
 }

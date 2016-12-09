@@ -20,7 +20,7 @@ public class DocumentService {
 	private static final String ML_PASSWORD = "admin";
 	protected static final String URI_PARAM = "uri";
 
-	protected WebTarget getInvocationBuilder(){
+	protected WebTarget getWebTarget(){
 
 		final HttpAuthenticationFeature feature = HttpAuthenticationFeature.basic(ML_USERNAME, ML_PASSWORD);
 		final Client client = ClientBuilder.newBuilder().build();
