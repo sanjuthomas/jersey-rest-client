@@ -40,7 +40,7 @@ public class TestQuoteService {
 	public void shouldInsertOrUpdateQuoteRequest(){
 
 		this.quoteService.insertOrUpdate(this.quoteRequest);
-		final QuoteRequest quoteRequest = this.quoteService.find("/C1/A1/Q1.xml");
+		final QuoteRequest quoteRequest = this.quoteService.get("/C1/A1/Q1.xml");
 		Assert.assertEquals("Q1", quoteRequest.getId());
 		Assert.assertEquals("C1", quoteRequest.getClient().getId());
 		Assert.assertEquals("A1", quoteRequest.getClient().getAccount().getId());
