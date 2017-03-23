@@ -14,7 +14,7 @@ import org.glassfish.jersey.filter.LoggingFilter;
  */
 public class DocumentService {
 
-	private static final String ML_SERVER = "http://localhost:12000";
+	private static final String ML_SERVER = "http://localhost:8000";
 	private static final String ML_DOCUMENT_ENDPOINT = "v1/documents";
 	private static final String ML_QBE_ENDPOINT = "v1/qbe";
 	private static final String ML_SEARCH_ENDPOINT = "v1/search";
