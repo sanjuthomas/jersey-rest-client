@@ -1,4 +1,4 @@
-package com.marklogic.quote;
+package org.sanju.quote;
 
 /**
  *

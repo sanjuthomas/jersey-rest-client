@@ -1,4 +1,4 @@
-package com.marklogic.quote;
+package org.sanju.quote;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

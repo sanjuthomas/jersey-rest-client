@@ -1,9 +1,9 @@
-package com.marklogic.service;
+package org.sanju.service;
 
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.core.MediaType;
 
-import com.marklogic.quote.QuoteRequest;
+import org.sanju.quote.QuoteRequest;
 
 /**
  *

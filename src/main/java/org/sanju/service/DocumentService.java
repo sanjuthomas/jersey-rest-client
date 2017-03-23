@@ -1,4 +1,4 @@
-package com.marklogic.service;
+package org.sanju.service;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;

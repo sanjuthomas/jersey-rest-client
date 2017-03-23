@@ -1,13 +1,13 @@
-package com.marklogic.service;
+package org.sanju.service;
 
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import com.marklogic.quote.Account;
-import com.marklogic.quote.Client;
-import com.marklogic.quote.QuoteRequest;
+import org.sanju.quote.Account;
+import org.sanju.quote.Client;
+import org.sanju.quote.QuoteRequest;
+import org.sanju.service.QuoteService;
 
 /**
  *
